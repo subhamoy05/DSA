@@ -1,0 +1,7 @@
+if __name__ == "__main__":
+    arr = [2, 4, 1, 7, 5, 0]
+    print("Input Array : ", arr)
+    nextPermutation(arr)
+    print("Output Array : ", end="")
+    for num in arr:
+        print(num, end=" ")
