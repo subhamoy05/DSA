@@ -32,7 +32,7 @@ def next_Permutation(arr):
         right -= 1
 
 if __name__ == "__main__":
-    arr = [2, 4, 1, 7, 5, 0]
+    arr = [1,2,3,6,5,4]
     print("Input Array : ", arr)
     next_Permutation(arr)
     print("Output Array : ", end="")
