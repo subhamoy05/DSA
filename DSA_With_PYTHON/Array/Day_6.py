@@ -60,8 +60,8 @@ def majority_Element(arr):
     if count2 > n / 3 and candidate1 != candidate2:
         res.append(candidate2)
 
-    # if len(res) == 2 and res[0] > res[1]:
-    #     res[0], res[1] = res[1], res[0]
+    if len(res) == 2 and res[0] > res[1]:
+        res[0], res[1] = res[1], res[0]
 
     return res
 
