@@ -1,5 +1,6 @@
 {
 	"files.associations": {
 		"SWAP.C": "cpp"
-	}
+	},
+	"cSpell.words": ["Kadane's", "subarray"]
 }
